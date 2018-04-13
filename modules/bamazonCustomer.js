@@ -18,6 +18,12 @@ var connection = mysql.createConnection({
     runSearch();
   });
 
+
+  function showTable() {
+    select*from products;
+  };
+
+
   function runSearch() {
     inquirer
       .prompt({
