@@ -1,7 +1,7 @@
 var mysql = require("mysql");
 var inquirer = require("inquirer");
 var Table = require('cli-table2');
-var showTable = require('./table.js');
+var showTable = require('./modules/table.js');
 
 var connection = mysql.createConnection({
     host: "localhost",
