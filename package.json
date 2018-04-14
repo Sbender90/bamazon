@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/Sbender90/bamazon#readme",
   "dependencies": {
-    "inquirer": "^5.2.0"
+    "cli-table2": "^0.2.0",
+    "inquirer": "^5.2.0",
+    "mysql": "^2.15.0"
   }
 }
